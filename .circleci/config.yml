@@ -29,7 +29,7 @@ jobs:
           name: Deploy to Railway App
           command: |
             cd bankchurn-api 
-            railway up --service=harmonious-fulfillment -d
+            railway up a0e07da2-58e3-4ad7-9486-c618d44a6609
             railway up --detach
 
 
